@@ -15,4 +15,4 @@ Open a command prompt with administrator privileges.
 Navigate to the Apache installation directory by typing:- cd C:\Apache24\bin and nstall Apache as a Windows service by running the (httpd.exe -k install) command.
 Start the Apache service by executing the (httpd.exe -k start)command.
 Verify Apache Installation by Opening a web browser on the same machine.Enter http://localhost or http://127.0.0.1 in the address bar.
-If Apache is installed correctly, you should see the default Apache web page.
+If Apache is installed correctly, you should see the default Apache web page. 
