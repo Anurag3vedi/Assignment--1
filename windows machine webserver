@@ -1,2 +1,18 @@
 Sign in to the AWS Management Console.
 Open the Amazon EC2 console by navigating to the EC2 service.
+In the EC2 Dashboard, click on "Launch Instance" to start the instance creation wizard.
+Choose an Amazon Machine Image(choose windows).
+Select the instance type that suits your needs (e.g., t2.micro).
+Select an existing key pair or create a new one.This key pair will be used to securely access your Windows instance.
+Configure the security group settings to allow inbound rules for Remote Desktop Protocol (RDP).
+Configure the storage options for your instance and specify the size and type of the root volume and add additional volumes.
+choose the number of instances you want to create from the summary.
+Click on "Launch Instances" to start the instance creation process.
+Once the instance is running, Now, you can connect to your Windows EC2 instance using a Remote Desktop Protocol (RDP) client, such as Microsoft Remote Desktop or Remote Desktop Connection. Use the instance's public IP address or public DNS name along with the downloaded key pair (if using) to establish an RDP session and access your Windows EC2 instance.
+once you have access to your windows EC2 instance,Go to the Apache website and Select the appropriate version of Apache for your Windows system (32-bit or 64-bit) and download the ZIP package.
+Extract the contents of the downloaded ZIP package to a directory of your choice (e.g., C:\Apache24).
+Open a command prompt with administrator privileges.
+Navigate to the Apache installation directory by typing:- cd C:\Apache24\bin and nstall Apache as a Windows service by running the (httpd.exe -k install) command.
+Start the Apache service by executing the (httpd.exe -k start)command.
+Verify Apache Installation by Opening a web browser on the same machine.Enter http://localhost or http://127.0.0.1 in the address bar.
+If Apache is installed correctly, you should see the default Apache web page.
